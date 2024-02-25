@@ -2,10 +2,11 @@ package web.model;
 
 public class Car {
     private String model;
-    private int series;
+    private String series;
     private String vinNumber;
 
-    public Car(String model, int series, String vinNumber) {
+
+    public Car(String model, String series, String vinNumber) {
         this.model = model;
         this.series = series;
         this.vinNumber = vinNumber;
@@ -19,11 +20,11 @@ public class Car {
         this.model = model;
     }
 
-    public int getSeries() {
+    public String getSeries() {
         return series;
     }
 
-    public void setSeries(int series) {
+    public void setSeries(String series) {
         this.series = series;
     }
 
